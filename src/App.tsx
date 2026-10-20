@@ -214,25 +214,31 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const localizedDestinations =
-    lang === "en"
-      ? destinations
-      : destinations.map((destination) => {
-          const copy = destinationsTranslations[lang];
-          return {
-            ...destination,
-            desc: copy.summaries[destination.id] ?? destination.desc,
-            details: copy.details.replace(
-              "{destination}",
-              destination.shortName,
-            ),
-            highlights: copy.highlights,
-            activities: destination.activities.map((activity, index) => ({
-              ...activity,
-              ...copy.activities[index],
-            })),
-          };
-        });
+  lang === "en"
+    ? destinations
+    : destinations.map((destination) => {
+        const copy = destinationsTranslations[lang];
 
+        return {
+          ...destination,
+
+          // Translate only the short destination summary.
+          // Preserve your original details, highlights,
+          // activity titles, descriptions and image paths.
+          desc:
+            copy.summaries[destination.id] ??
+            destination.desc,
+
+          image: destination.image,
+
+          activities: destination.activities.map(
+            (activity) => ({
+              ...activity,
+              image: activity.image,
+            }),
+          ),
+        };
+      });
   const activeDestination = selectedDestination
     ? localizedDestinations.find(
         (destination) => destination.id === selectedDestination.id,

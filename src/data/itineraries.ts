@@ -43,7 +43,9 @@ export const itineraries = [
         desc: "The group arrives at Kilimanjaro Airport (JRO). Participants are met by a representative of Black eagle tours and transferred to a hotel in Arusha.\n\nNote: The hotel cost only includes breakfast. Check-in starts at 2:00 PM.\n\nAccommodation:\nMeal Plan: Breakfast included\nAmenities: WiFi, Swimming Pool, Laundry service, Wildlife area, Spa, Restaurant",
       
         image: "/images/itinerary-days/classic-safari-day-01.jpg",
-        imageAlt: "ARRIVAL safari itinerary"
+        imageAlt: "ARRIVAL safari itinerary",
+
+       
       },
       {
         day: "Day 2",
@@ -53,7 +55,8 @@ export const itineraries = [
         imageAlt: "LAKE MANYARA safari itinerary",
         
         desc: "In the morning, after breakfast (around 7:30 AM), your safari guide will arrive at the hotel and inform the receptionist that he is waiting for you. After meeting your driver, you will travel to Lake Manyara National Park, and by 10:00 AM, you'll already be on your first safari!\n\nThe entire park is cut through with groundwater streams, creating a favorable environment for plant life, and as a result, attracting a variety of birds (including pink flamingos) and African forest animals.\n\nAround lunchtime, you will visit the Maji Moto hot springs, where the driver will provide you with personal lunchboxes. After this stop, the safari will continue, and by evening, you will be transferred to your hotel to get ready for the next-day adventure in Ngorongoro!\n\nAdditional notes:\nThis is your first day on safari, so we kindly ask that you pay special attention to the national park visitor rules and our company’s recommendations:\n• It is strictly prohibited to exit the vehicle during the safari, except in designated areas. Violating this rule may result in significant fines for the company, including the revocation of its license.\n• Off-road driving is also prohibited as it can cause irreparable damage to the delicate balance of the park's ecosystem.\n• Smoking is allowed during the safari, but please be extremely careful when extinguishing and disposing of cigarette butts, as they are a frequent cause of fires in the savanna.\n• We kindly ask that you do not put your feet on the seats or sit on the backs of the safari vehicle’s seats, as such behavior quickly damages the vehicle. Thank you in advance for your understanding!\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
-      
+          accommodationImage: "/images/accommodation/classic2.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 3",
@@ -61,8 +64,8 @@ export const itineraries = [
          image: "/images/itinerary-days/classic-safari-day-05.jpeg",
         imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary",
         desc: "On this day, it is best to leave the hotel as early as possible to maximize your chances of seeing the animals that are most active in the morning. Depending on whether you’d like to extend your safari time, breakfast can either be served at the hotel or packed in lunchboxes for you to enjoy on the go. At 7:00 AM, you will depart for Ngorongoro Conservation Area, and after about an hour, you will enter the crater.\n\nNgorongoro is one of the most famous and fascinating national parks in Tanzania, as it is home to the highest concentration of animal species per square kilometer. During your visit, you’ll have the chance to see buffalo, elephants, lions, wildebeests, zebras, hippos, and feline species like caracals and servals. The luckiest travelers may even spot a rhinoceros, whose population is rapidly declining.\n\nBy lunchtime, you will arrive at the lakeside, where you will be offered lunchboxes. Afterward, the safari will continue, and a few hours later, you will be transferred to Serengeti National Park.\n\nAlong the way, you can visit a memorial dedicated to two West German researchers, Bernhard and Michael Grzimek. Thanks to their efforts, Northern Tanzania's National Parks have survived in their natural state until today. You can read their full story in the book \"Serengeti Shall Not Die\", available on Amazon.com for USD 10–25.\n\nIn the evening, you will be transferred to a hotel located in the heart of the Serengeti Valley.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
-      
-       
+          accommodationImage: "/images/accommodation/classic3.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 4",
@@ -70,7 +73,9 @@ export const itineraries = [
         desc: "Today you will go to the most famous safari park in the world - Serengeti. This is one of the largest parks in Tanzania and has a large population of wildlife. Here, you are sure to see: lions, antelopes, elephants, giraffes, buffaloes and zebras. There is a good chance of spotting cheetahs, serval cats and other rare animals of the African savannah. The Serengeti is a designated UNESCO World Heritage Site, chosen because of its important ecosystem, the dense population of animals and the annual Great Migration. Serengeti was the inspiration for Disney’s “Lion King” feature film, but life here is not a cartoon - it is pure, wild and beautiful. The day will take place in the central Serengeti, in a remarkably beautiful area called Seronera.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/classic-safari-day-04.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK safari itinerary",
+         accommodationImage: "/images/accommodation/classic4.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 5",
@@ -78,7 +83,9 @@ export const itineraries = [
         desc: "Your adventure continues in the central part of the Serengeti. Seronera is a huge space, brimming with life. It is impossible to view it all in one day; today, your guide will show you new places and interesting animals, so that you can get a full perspective of Serengeti’s Seronera. After lunch, you will start driving towards your hotel in Arusha.\n\nAccommodation:\nMeal Plan: Breakfast included\nAmenities: WiFi, Swimming Pool, Laundry service, Wildlife area, Spa, Restaurant",
       
         image: "/images/itinerary-days/classic-safari-day-03.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK safari itinerary",
+         accommodationImage: "/images/accommodation/classic5.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 6",
@@ -86,7 +93,8 @@ export const itineraries = [
         desc: "Rest in the hotel and transfer to the airport.\n\nNote: Hotel check-out is at 10:00 AM. In case you need a late check-out before your evening flight, you have the option to extend your hotel stay for an extra fee. Let your manager know in advance if you need a late check-out.",
       
         image: "/images/itinerary-days/classic-safari-day-06.jpg",
-        imageAlt: "DEPARTURE safari itinerary"
+        imageAlt: "DEPARTURE safari itinerary",
+        
       }
     ]
   },
@@ -143,7 +151,9 @@ export const itineraries = [
         desc: "Today’s journey takes you from the lowlands up into the Ngorongoro Highlands. The drive from Arusha — the typical starting point for this safari — takes about 4 to 5 hours, depending on the location of your lodge. But the reward is well worth the journey: a stay on the edge of the Ngorongoro Crater, one of Africa’s most iconic landscapes.\n\nAfter arriving in the Ngorongoro Conservation Area, you’ll stretch your legs with a guided walk along the crater rim. Led by a professional park ranger, this easy 1–2 hour hike follows a flat trail through lush montane forest.\n\nWhile large animals like elephants and buffalo are rarer here than down in the crater, keep your eyes open for tracks and forest birds — and listen to the bush as it slowly reveals its secrets. At the end of the trail, you’ll be rewarded with a spectacular view over the world’s largest intact volcanic caldera.\n\nAfter your walk, check in at a lodge perched right on the edge of the crater. This is your chance to relax, soak in the silence, and enjoy the dramatic landscapes around you. At 2,286 meters above sea level, Ngorongoro can get chilly in the morning and evening — bring a warm layer for extra comfort.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, WiFi, Wildlife area",
       
         image: "/images/itinerary-days/crater-world-day-01.jpeg",
-        imageAlt: "NGORONGORO CRATER RIM WALK & REST TIME AT THE LODGE safari itinerary"
+        imageAlt: "NGORONGORO CRATER RIM WALK & REST TIME AT THE LODGE safari itinerary",
+         accommodationImage: "/images/accommodation/crater2.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 3",
@@ -151,7 +161,9 @@ export const itineraries = [
         desc: "Hiking in Empakaai Crater is an amazing way to bring some diversity in your safari program and stretch your legs after the days of game-driving! Empakaai Crater is a caldera in the Ngorongoro Consevation Area, encircling a beautiful lake on the crater floor, for which you would head amidst the greenery of the forest. The forest trail is a bit steep, although totally manageable, and leads you passing the ancient strangler figs and rich birdlife. The trail continues to the lakeshore, where you can view water birds - and, if you are lucky, even flamingos that migrate here in December. The glorious views of the Great Rift Valley from the crater rim are totally worth the effort!\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, WiFi, Wildlife area",
       
         image: "/images/itinerary-days/crater-world-day-03.jpg",
-        imageAlt: "HIKE IN EMPAKAAI CRATER safari itinerary"
+        imageAlt: "HIKE IN EMPAKAAI CRATER safari itinerary",
+        accommodationImage: "/images/accommodation/crater3.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 4",
@@ -159,7 +171,9 @@ export const itineraries = [
         desc: "Today you are going to the Legendary Ngorongoro Crater! Your day will begin early in the morning, when your guide arrives to drive you to the Ngorongoro Crater, part of the Ngorongoro Conservation Area. The Crater is somewhat reminiscent of The Lost World by Sir Arthur Conan Doyle: here you will witness tens of thousands of wild animals living in the massive crater left by a huge ancient volcano. The actual crater is relatively small, when you consider that it is home to the most variety of animals per square meter than anywhere else in the world! Here, you are sure to see a great number of animals within close proximity to one another.\n\nThe descent into the crater will take about half an hour of driving. The road passes through beautiful, lush forests with great scenery. Your safari guide will make a stop to see the ‘look out’ which is a place offering a stunning panoramic view of the entire crater. Contrary to popular myth, animals can go outside the caldera. However, most of them are safe and comfortable inside the caldera which provides an unlimited supply of fresh grass for grazers and easy prey for predators. Therefore, they prefer to remain in the crater at all the time.\n\nElephants, buffaloes, antelopes, lions, cheetahs, zebras and other African animals can be seen in Ngorongoro Crater. This is one of the few places in Africa where rhinos are found, although, remember that they are an endangered species, so there are very few of them. One animal that is absent are giraffes; you will not spot any of them in the crater because, due to the build of their bodies, including legs and long necks, they cannot walk down into the crater.\n\nAfter your morning game drive around the crater, you will stop at the picnic area next to Lake Magadi for a snack and rest. This place is popular with various birds, including kites, who sometimes try to steal food right from the table! While not dangerous, at all, it is a good idea not to leave any food unattended. One of the draws of Lake Magadi are the hippos that live in the area. You’re sure to enjoy watching them while you eat lunch. These huge animals stay close to the shore and often surface to get air. If you do see one walking out of the water, give it plenty of space. Due to the large number of animals and endemic plants, Ngorongoro Conservation Area is a UNESCO World Heritage Site and renowned for its natural significance in the world.\n\nPlease do not feed animals in Ngorongoro or any other parks in Tanzania. Even if you really want to treat a small bird or monkey, you should not do this - you will only harm them. Human food disrupts the natural diet of animals and can lead to their early death! Remember, this is not just our request. This is a law which is enforced by park rangers. Any person caught feeding wildlife or violating other park rules may be fined.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, WiFi, Wildlife area",
       
         image: "/images/itinerary-days/crater-world-day-04.jpg",
-        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary"
+        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary",
+        accommodationImage: "/images/accommodation/crater4.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 5",
@@ -227,7 +241,9 @@ export const itineraries = [
         desc: "Today your safari will take place in Tarangire National Park. This is one of the most interesting places in Tanzania! The river of the same name flows through the park, where giraffes, zebras, antelopes and buffaloes come to drink. These animals attract predators, which is why a lot of lions live in Tarangire. You will definitely see them during your trip.\n\nIn the dry season, the Tarangire River becomes the only source of drinking water for many kilometers around. Because of this, large herds of elephants come to Tarangire, making Tarangire the home to the largest population of elephants in Northern Tanzania for most of the year (especially June - October and December - March). Elephants are not at all intimidated by visitors to the park, and they often come quite close to cars. This is completely safe - since elephants have no enemies in their natural nature they are naturally curious and unafraid.\n\nTarangire National Park is also known for its ancient baobab trees. These massive trees are larger and older than any other park in continental Africa. The scenery, accented with these signatory trees is simply stunning.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/bush-to-beach-day-02.jpg",
-        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary"
+        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary",
+        accommodationImage: "/images/accommodation/bush2.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 3",
@@ -235,7 +251,9 @@ export const itineraries = [
         desc: "In the morning, after breakfast (around 7:30 AM), your safari guide will arrive at the hotel and inform the receptionist that he is waiting for you. After meeting your driver, you will travel to Lake Manyara National Park, and by 10:00 AM, you'll already be on your first safari!\n\nThe entire park is cut through with groundwater streams, creating a favorable environment for plant life, and as a result, attracting a variety of birds (including pink flamingos) and African forest animals.\n\nAround lunchtime, you will visit the Maji Moto hot springs, where the driver will provide you with personal lunchboxes. After this stop, the safari will continue, and by evening, you will be transferred to your hotel to get ready for the next-day adventure in Ngorongoro!\n\nAdditional notes:\nThis is your first day on safari, so we kindly ask that you pay special attention to the national park visitor rules and our company’s recommendations:\n• It is strictly prohibited to exit the vehicle during the safari, except in designated areas. Violating this rule may result in significant fines for the company, including the revocation of its license.\n• Off-road driving is also prohibited as it can cause irreparable damage to the delicate balance of the park's ecosystem.\n• Smoking is allowed during the safari, but please be extremely careful when extinguishing and disposing of cigarette butts, as they are a frequent cause of fires in the savanna.\n• We kindly ask that you do not put your feet on the seats or sit on the backs of the safari vehicle’s seats, as such behavior quickly damages the vehicle.\nThank you in advance for your understanding!\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/bush-to-beach-day-03.jpeg",
-        imageAlt: "LAKE MANYARA NATIONAL PARK safari itinerary"
+        imageAlt: "LAKE MANYARA NATIONAL PARK safari itinerary",
+         accommodationImage: "/images/accommodation/bush3.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 4",
@@ -243,7 +261,9 @@ export const itineraries = [
         desc: "Today you are going to the Legendary Ngorongoro Crater! Your day will begin early in the morning, when your guide arrives to drive you to the Ngorongoro Crater, part of the Ngorongoro Conservation Area. The Crater is somewhat reminiscent of The Lost World by Sir Arthur Conan Doyle:\n\nHere you will witness tens of thousands of wild animals living in the massive crater left by a huge ancient volcano. The actual crater is relatively small, when you consider that it is home to the most variety of animals per square meter than anywhere else in the world! Here, you are sure to see a great number of animals within close proximity to one another.\n\nThe descent into the crater will take about half an hour of driving. The road passes through beautiful, lush forests with great scenery. Your safari guide will make a stop to see the ‘look out’ which is a place offering a stunning panoramic view of the entire crater. Contrary to popular myth, animals can go outside the caldera. However, most of them are safe and comfortable inside the caldera which provides an unlimited supply of fresh grass for grazers and easy prey for predators. Therefore, they prefer to remain in the crater t all the time.\n\nElephants, buffaloes, antelopes, lions, cheetahs, zebras and other African animals can be seen in Ngorongoro Crater. This is one of the few places in Africa where rhinos are found, although, remember that they are an endangered species, so there are very few of them. One animal that is absent are giraffes; you will not spot any of them in the crater because, due to the build of their bodies, including legs and long necks, they cannot walk down into the crater.\n\nAfter your morning game drive around the crater, you will stop at the picnic area next to Lake Magadi for a snack and rest. This place is popular with various birds, including kites, who sometimes try to steal food right from the table! While not dangerous, at all, it is a good idea not to leave any food unattended. One of the draws of Lake Magadi are the hippos that live in the area. You’re sure to enjoy watching them while you eat lunch. These huge animals stay close to the shore and often surface to get air. If you do see one walking out of the water, give it plenty of space. Due to the large number of animals and endemic plants, Ngorongoro Conservation Area is a UNESCO World Heritage Site and renowned for its natural significance in the world.\n\nPlease do not feed animals in Ngorongoro or any other parks in Tanzania. Even if you really want to treat a small bird or monkey, you should not do this - you will only harm them. Human food disrupts the natural diet of animals and can lead to their early death!\nRemember, this is not just our request. This is a law which is enforced by park rangers. Any person caught feeding wildlife or violating other park rules may be fined.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/bush-to-beach-day-04.jpg",
-        imageAlt: "NGORONGORO CRATER safari itinerary"
+        imageAlt: "NGORONGORO CRATER safari itinerary",
+         accommodationImage: "/images/accommodation/bush4.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 5",
@@ -251,7 +271,9 @@ export const itineraries = [
         desc: "Today you will go to the most famous safari park in the world - Serengeti. This is one of the largest parks in Tanzania and has a large population of wildlife. Here, you are sure to see: lions, antelopes, elephants, giraffes, buffaloes and zebras. There is a good chance of spotting cheetahs, serval cats and other rare animals of the African savannah. The Serengeti is a designated UNESCO World Heritage Site, chosen because of its important ecosystem, the dense population of animals and the annual Great Migration. Serengeti was the inspiration for Disney’s “Lion King” feature film, but life here is not a cartoon - it is pure, wild and beautiful. The day will take place in the central Serengeti, in a remarkably beautiful area called Seronera.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/bush-to-beach-day-05.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK safari itinerary",
+         accommodationImage: "/images/accommodation/bush5.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 6",
@@ -259,7 +281,9 @@ export const itineraries = [
         desc: "Your adventure continues in the central part of the Serengeti. Seronera is a huge space, brimming with life. It is impossible to view it all in one day; today, your guide will show you new places and interesting animals, so that you can get a full perspective of Serengeti’s Seronera. It is in the Serengeti that the rarest African animals live: rhinos, leopards, serval cats and caracals. This second day increases your chances of seeing these rare animals in the wild.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/bush-to-beach-day-06.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK FULL DAY safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK FULL DAY safari itinerary",
+         accommodationImage: "/images/accommodation/bush6.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 7",
@@ -267,7 +291,9 @@ export const itineraries = [
         desc: "After an unforgettable safari experience in Serengeti National Park, you will be transferred to the airstrip for your scheduled domestic flight to Zanzibar.\n\nUpon arrival, you will be warmly welcomed and transferred to your beach resort, where your island experience begins. Spend the rest of the day at leisure relaxing on the white sandy beaches, enjoying the turquoise waters of the Indian Ocean, or simply unwinding after your thrilling safari adventure.\n\nThis marks the beginning of your tropical escape, perfectly complementing your wildlife journey with relaxation and cultural charm.\n\nAccommodation:\nMeal Plan: Breakfast included\nAmenities: Air Conditioner, Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/bush-to-beach-day-07.jpg",
-        imageAlt: "SERENGETI TO ZANZIBAR - (FLIGHT TRANSFER & BEACH EXTENSION) safari itinerary"
+        imageAlt: "SERENGETI TO ZANZIBAR - (FLIGHT TRANSFER & BEACH EXTENSION) safari itinerary",
+         accommodationImage: "/images/accommodation/bush7.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 8",
@@ -275,7 +301,9 @@ export const itineraries = [
         desc: "Welcome to Zanzibar, a tropical paradise where relaxation meets natural beauty. After your adventurous safari, this is your time to unwind and indulge in pure tranquility.\n\nEnjoy the soft white sandy beaches, the crystal-clear turquoise waters of the Indian Ocean, and the gentle ocean breeze that creates the perfect atmosphere for relaxation. Whether you choose to sunbathe, take a refreshing swim, or simply relax under a palm tree, every moment here is designed for your comfort and peace of mind.\n\nZanzibar also offers a rich cultural experience from exploring the historic charm of Stone Town to enjoying fresh seafood and local Swahili cuisine. For those seeking a bit more activity, optional experiences such as snorkeling, spice tours, and dhow sunset cruises are available to make your stay even more memorable.\n\nThis island escape is the perfect way to end your journey combining relaxation, culture, and unforgettable coastal beauty.\n\nAccommodation:\nMeal Plan: Breakfast included\nAmenities: Air Conditioner, Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/bush-to-beach-day-08.jpg",
-        imageAlt: "ZANZIBAR RELAXATION safari itinerary"
+        imageAlt: "ZANZIBAR RELAXATION safari itinerary",
+         accommodationImage: "/images/accommodation/bush8.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 9",
@@ -283,7 +311,9 @@ export const itineraries = [
         desc: "While staying in Zanzibar, you will have the opportunity to enjoy a variety of exciting tours and cultural experiences that showcase the beauty and heritage of the island.\n\nExplore the historic streets of Stone Town, a UNESCO World Heritage Site, where you will discover rich history, local markets, and unique architecture influenced by Arab, Persian, and European cultures.\n\nVisit a local spice farm on a guided spice tour, where you will see, smell, and taste fresh spices such as cloves, cinnamon, and vanilla giving you a true sense of why Zanzibar is known as the “Spice Island.”\n\nFor ocean lovers, enjoy snorkeling or a boat excursion to Mnemba Island, معروف for its crystal-clear waters and vibrant marine life. You may also choose to experience a traditional dhow sunset cruise, offering breathtaking views of the Indian Ocean as the sun sets.\n\nThese tours provide a perfect mix of adventure, culture, and relaxation ensuring your stay in Zanzibar is both memorable and enjoyable.",
       
         image: "/images/itinerary-days/bush-to-beach-day-09.jpg",
-        imageAlt: "ZANZIBAR – EXCURSIONS & ISLAND TOURS safari itinerary"
+        imageAlt: "ZANZIBAR – EXCURSIONS & ISLAND TOURS safari itinerary",
+         accommodationImage: "/images/accommodation/bush9.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 10",
@@ -347,7 +377,9 @@ export const itineraries = [
         desc: "Today your safari will take place in Tarangire National Park. This is one of the most interesting places in Tanzania! The river of the same name flows through the park, where giraffes, zebras, antelopes and buffaloes come to drink. These animals attract predators, which is why a lot of lions live in Tarangire. You will definitely see them during your trip.\n\nIn the dry season, the Tarangire River becomes the only source of drinking water for many kilometers around. Because of this, large herds of elephants come to Tarangire, making Tarangire the home to the largest population of elephants in Northern Tanzania for most of the year (especially June - October and December - March). Elephants are not at all intimidated by visitors to the park, and they often come quite close to cars. This is completely safe - since elephants have no enemies in their natural nature they are naturally curious and unafraid.\n\nTarangire National Park is also known for its ancient baobab trees. These massive trees are larger and older than any other park in continental Africa. The scenery, accented with these signatory trees is simply stunning.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/ndutu-calving-day-02.jpg",
-        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary"
+        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary",
+        accommodationImage: "/images/accommodation/ndtu2.jpg",
+       accommodationImageAlt: "Accommodation"
       },
       {
         day: "Day 3",
@@ -355,7 +387,10 @@ export const itineraries = [
         desc: "Today you are going to the Legendary Ngorongoro Crater! Your day will begin early in the morning, when your guide arrives to drive you to the Ngorongoro Crater, part of the Ngorongoro Conservation Area. The Crater is somewhat reminiscent of The Lost World by Sir Arthur Conan Doyle: here you will witness tens of thousands of wild animals living in the massive crater left by a huge ancient volcano. The actual crater is relatively small, when you consider that it is home to the most variety of animals per square meter than anywhere else in the world! Here, you are sure to see a great number of animals within close proximity to one another.\n\nThe descent into the crater will take about half an hour of driving. The road passes through beautiful, lush forests with great scenery. Your safari guide will make a stop to see the ‘look out’ which is a place offering a stunning panoramic view of the entire crater. Contrary to popular myth, animals can go outside the caldera. However, most of them are safe and comfortable inside the caldera which provides an unlimited supply of fresh grass for grazers and easy prey for predators. Therefore, they prefer to remain in the crater t all the time.\n\nElephants, buffaloes, antelopes, lions, cheetahs, zebras and other African animals can be seen in Ngorongoro Crater. This is one of the few places in Africa where rhinos are found, although, remember that they are an endangered species, so there are very few of them. One animal that is absent are giraffes; you will not spot any of them in the crater because, due to the build of their bodies, including legs and long necks, they cannot walk down into the crater.\n\nAfter your morning game drive around the crater, you will stop at the picnic area next to Lake Magadi for a snack and rest. This place is popular with various birds, including kites, who sometimes try to steal food right from the table! While not dangerous, at all, it is a good idea not to leave any food unattended. One of the draws of Lake Magadi are the hippos that live in the area. You’re sure to enjoy watching them while you eat lunch. These huge animals stay close to the shore and often surface to get air. If you do see one walking out of the water, give it plenty of space. Due to the large number of animals and endemic plants, Ngorongoro Conservation Area is a UNESCO World Heritage Site and renowned for its natural significance in the world.\n\nPlease do not feed animals in Ngorongoro or any other parks in Tanzania. Even if you really want to treat a small bird or monkey, you should not do this - you will only harm them. Human food disrupts the natural diet of animals and can lead to their early death! Remember, this is not just our request. This is a law which is enforced by park rangers. Any person caught feeding wildlife or violating other park rules may be fined.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Wildlife area",
       
         image: "/images/itinerary-days/ndutu-calving-day-03.jpeg",
-        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary"
+        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary",
+         accommodationImage: "/images/accommodation/ndtu3.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 4",
@@ -363,7 +398,10 @@ export const itineraries = [
         desc: "Today your safari will take place in the southwestern corner of Ngorongoro, in an area called Ndutu. It borders the Serengeti, from where animals often come to Ndutu in search of fresh grass. While there are very beautiful panoramic views, few other tourists venture here, meaning you will feel like you have the place to yourself.\n\nThe Ndutu area is on the Great Migration route and it is here, from late January to mid March, that the wildebeests give birth. During the calving months, visitors can see thousands of baby wildebeests arrive into the world. One of the unique traits of these animals is that newborn wildebeests can walk within a few minutes of birth, and run within a few hours! This ability is essential for survival in Tanzania’s wild because predators see newborn wildebeests as easy prey. What is bad news for wildebeests is an excellent opportunity for safari-goers to spot all the Big Cats of Tanzania within a few days: lion, leopard, cheetah, serval and caracal.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Wildlife area",
       
         image: "/images/itinerary-days/ndutu-calving-day-04.jpg",
-        imageAlt: "NDUTU AREA IN NGORONGORO safari itinerary"
+        imageAlt: "NDUTU AREA IN NGORONGORO safari itinerary",
+           accommodationImage: "/images/accommodation/ndtu4.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 5",
@@ -371,7 +409,9 @@ export const itineraries = [
         desc: "Ndutu has all the big African mammals: elephants, giraffes, antelopes, and other inhabitants of the savanna come close to safari jeeps and look with curiosity. You can come here all year round - there are always a lot of animals in Ndutu!\n\nThe area also has two lovely lakes: Ndutu and Masek, where animals come to drink. The lakes provide amazing photo opportunities; they are lined with stunning acacias and animals of all kinds come to drink the peaceful water.\n\nThis area also has historic significance: it was in Ndutu in 1973 that the remains of ancient people and the first primitive tools were found: stone axes, hammers and spears. Scientists studied them and came to the conclusion that they are more than 500,000 years old! This once again confirms the assumption that Africa is the Cradle of Humanity.\n\nAccommodation:\nMeal Plan: Half Board\nAmenities: WiFi, Swimming Pool, Laundry service, Wildlife area, Spa, Restaurant",
       
         image: "/images/itinerary-days/ndutu-calving-day-05.jpg",
-        imageAlt: "NDUTU AREA IN NGORONGORO safari itinerary"
+        imageAlt: "NDUTU AREA IN NGORONGORO safari itinerary",
+           accommodationImage: "/images/accommodation/ndtu5.jpg",
+       accommodationImageAlt: "Accommodation"
       }
     ]
   },
@@ -431,7 +471,10 @@ export const itineraries = [
         desc: "Today your safari will take place in Tarangire National Park. This is one of the most interesting places in Tanzania! The river of the same name flows through the park, where giraffes, zebras, antelopes and buffaloes come to drink. These animals attract predators, which is why a lot of lions live in Tarangire. You will definitely see them during your trip.\n\nIn the dry season, the Tarangire River becomes the only source of drinking water for many kilometers around. Because of this, large herds of elephants come to Tarangire, making Tarangire the home to the largest population of elephants in Northern Tanzania for most of the year (especially June - October and December - March). Elephants are not at all intimidated by visitors to the park, and they often come quite close to cars. This is completely safe - since elephants have no enemies in their natural nature they are naturally curious and unafraid.\n\nTarangire National Park is also known for its ancient baobab trees. These massive trees are larger and older than any other park in continental Africa. The scenery, accented with these signatory trees is simply stunning.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool",
       
         image: "/images/itinerary-days/tarangire-ndutu-serengeti-day-02.jpg",
-        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary"
+        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary",
+           accommodationImage: "/images/accommodation/serengeti2.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 3",
@@ -439,7 +482,10 @@ export const itineraries = [
         desc: "Today you are going to the Legendary Ngorongoro Crater! Your day will begin early in the morning, when your guide arrives to drive you to the Ngorongoro Crater, part of the Ngorongoro Conservation Area. The Crater is somewhat reminiscent of The Lost World by Sir Arthur Conan Doyle: here you will witness tens of thousands of wild animals living in the massive crater left by a huge ancient volcano. The actual crater is relatively small, when you consider that it is home to the most variety of animals per square meter than anywhere else in the world! Here, you are sure to see a great number of animals within close proximity to one another.\n\nThe descent into the crater will take about half an hour of driving. The road passes through beautiful, lush forests with great scenery. Your safari guide will make a stop to see the ‘look out’ which is a place offering a stunning panoramic view of the entire crater. Contrary to popular myth, animals can go outside the caldera. However, most of them are safe and comfortable inside the caldera which provides an unlimited supply of fresh grass for grazers and easy prey for predators. Therefore, they prefer to remain in the crater t all the time.\n\nElephants, buffaloes, antelopes, lions, cheetahs, zebras and other African animals can be seen in Ngorongoro Crater. This is one of the few places in Africa where rhinos are found, although, remember that they are an endangered species, so there are very few of them. One animal that is absent are giraffes; you will not spot any of them in the crater because, due to the build of their bodies, including legs and long necks, they cannot walk down into the crater.\n\nAfter your morning game drive around the crater, you will stop at the picnic area next to Lake Magadi for a snack and rest. This place is popular with various birds, including kites, who sometimes try to steal food right from the table! While not dangerous, at all, it is a good idea not to leave any food unattended. One of the draws of Lake Magadi are the hippos that live in the area. You’re sure to enjoy watching them while you eat lunch. These huge animals stay close to the shore and often surface to get air. If you do see one walking out of the water, give it plenty of space. Due to the large number of animals and endemic plants, Ngorongoro Conservation Area is a UNESCO World Heritage Site and renowned for its natural significance in the world.\n\nPlease do not feed animals in Ngorongoro or any other parks in Tanzania. Even if you really want to treat a small bird or monkey, you should not do this - you will only harm them. Human food disrupts the natural diet of animals and can lead to their early death! Remember, this is not just our request. This is a law which is enforced by park rangers. Any person caught feeding wildlife or violating other park rules may be fined.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, WiFi, Wildlife area",
       
         image: "/images/itinerary-days/tarangire-ndutu-serengeti-day-03.jpg",
-        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary"
+        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary",
+           accommodationImage: "/images/accommodation/serengeti3.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 4",
@@ -447,7 +493,10 @@ export const itineraries = [
         desc: "Today your safari will take place in the southwestern corner of Ngorongoro, in an area called Ndutu. It borders the Serengeti, from where animals often come to Ndutu in search of fresh grass. While there are very beautiful panoramic views, few other tourists venture here, meaning you will feel like you have the place to yourself.\n\nThe Ndutu area is on the Great Migration route and it is here, from late January to mid March, that the wildebeests give birth. During the calving months, visitors can see thousands of baby wildebeests arrive into the world. One of the unique traits of these animals is that newborn wildebeests can walk within a few minutes of birth, and run within a few hours! This ability is essential for survival in Tanzania’s wild because predators see newborn wildebeests as easy prey. What is bad news for wildebeests is an excellent opportunity for safari-goers to spot all the Big Cats of Tanzania within a few days: lion, leopard, cheetah, serval and caracal.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, WiFi, Wildlife area",
       
         image: "/images/itinerary-days/tarangire-ndutu-serengeti-day-04.jpg",
-        imageAlt: "NDUTU AREA IN NGORONGORO safari itinerary"
+        imageAlt: "NDUTU AREA IN NGORONGORO safari itinerary",
+           accommodationImage: "/images/accommodation/serengeti4.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 5",
@@ -455,7 +504,10 @@ export const itineraries = [
         desc: "Today you will go to the most famous safari park in the world - Serengeti. This is one of the largest parks in Tanzania and has a large population of wildlife. Here, you are sure to see: lions, antelopes, elephants, giraffes, buffaloes and zebras. There is a good chance of spotting cheetahs, serval cats and other rare animals of the African savannah. The Serengeti is a designated UNESCO World Heritage Site, chosen because of its important ecosystem, the dense population of animals and the annual Great Migration. Serengeti was the inspiration for Disney’s “Lion King” feature film, but life here is not a cartoon - it is pure, wild and beautiful. The day will take place in the central Serengeti, in a remarkably beautiful area called Seronera.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Restaurant, WiFi, Wildlife area, Gym",
       
         image: "/images/itinerary-days/tarangire-ndutu-serengeti-day-05.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK safari itinerary",
+           accommodationImage: "/images/accommodation/serengeti5.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 6",
@@ -463,7 +515,9 @@ export const itineraries = [
         desc: "Your adventure continues in the central part of the Serengeti. Seronera is a huge space, brimming with life. It is impossible to view it all in one day; today, your guide will show you new places and interesting animals, so that you can get a full perspective of Serengeti’s Seronera. It is in the Serengeti that the rarest African animals live: rhinos, leopards, serval cats and caracals. This second day increases your chances of seeing these rare animals in the wild.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Restaurant, WiFi, Wildlife area, Gym",
       
         image: "/images/itinerary-days/tarangire-ndutu-serengeti-day-06.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary",
+           accommodationImage: "/images/accommodation/serengeti6.jpg",
+       accommodationImageAlt: "Accommodation"
       },
       {
         day: "Day 7",
@@ -527,7 +581,11 @@ export const itineraries = [
         desc: "Today your safari will take place in Tarangire National Park. This is one of the most interesting places in Tanzania! The river of the same name flows through the park, where giraffes, zebras, antelopes and buffaloes come to drink. These animals attract predators, which is why a lot of lions live in Tarangire. You will definitely see them during your trip.\n\nIn the dry season, the Tarangire River becomes the only source of drinking water for many kilometers around. Because of this, large herds of elephants come to Tarangire, making Tarangire the home to the largest population of elephants in Northern Tanzania for most of the year (especially June - October and December - March). Elephants are not at all intimidated by visitors to the park, and they often come quite close to cars. This is completely safe - since elephants have no enemies in their natural nature they are naturally curious and unafraid.\n\nTarangire National Park is also known for its ancient baobab trees. These massive trees are larger and older than any other park in continental Africa. The scenery, accented with these signatory trees is simply stunning.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/luxury-migration-day-02.jpg",
-        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary"
+        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary",
+
+           accommodationImage: "/images/accommodation/migration2.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 3",
@@ -535,7 +593,10 @@ export const itineraries = [
         desc: "Today you are going to the Legendary Ngorongoro Crater! Your day will begin early in the morning, when your guide arrives to drive you to the Ngorongoro Crater, part of the Ngorongoro Conservation Area. The Crater is somewhat reminiscent of The Lost World by Sir Arthur Conan Doyle: here you will witness tens of thousands of wild animals living in the massive crater left by a huge ancient volcano. The actual crater is relatively small, when you consider that it is home to the most variety of animals per square meter than anywhere else in the world! Here, you are sure to see a great number of animals within close proximity to one another.\n\nThe descent into the crater will take about half an hour of driving. The road passes through beautiful, lush forests with great scenery. Your safari guide will make a stop to see the ‘look out’ which is a place offering a stunning panoramic view of the entire crater. Contrary to popular myth, animals can go outside the caldera. However, most of them are safe and comfortable inside the caldera which provides an unlimited supply of fresh grass for grazers and easy prey for predators. Therefore, they prefer to remain in the crater t all the time.\n\nElephants, buffaloes, antelopes, lions, cheetahs, zebras and other African animals can be seen in Ngorongoro Crater. This is one of the few places in Africa where rhinos are found, although, remember that they are an endangered species, so there are very few of them. One animal that is absent are giraffes; you will not spot any of them in the crater because, due to the build of their bodies, including legs and long necks, they cannot walk down into the crater.\n\nAfter your morning game drive around the crater, you will stop at the picnic area next to Lake Magadi for a snack and rest. This place is popular with various birds, including kites, who sometimes try to steal food right from the table! While not dangerous, at all, it is a good idea not to leave any food unattended. One of the draws of Lake Magadi are the hippos that live in the area. You’re sure to enjoy watching them while you eat lunch. These huge animals stay close to the shore and often surface to get air. If you do see one walking out of the water, give it plenty of space. Due to the large number of animals and endemic plants, Ngorongoro Conservation Area is a UNESCO World Heritage Site and renowned for its natural significance in the world.\n\nPlease do not feed animals in Ngorongoro or any other parks in Tanzania. Even if you really want to treat a small bird or monkey, you should not do this - you will only harm them. Human food disrupts the natural diet of animals and can lead to their early death!\n\nRemember, this is not just our request. This is a law which is enforced by park rangers. Any person caught feeding wildlife or violating other park rules may be fined.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/luxury-migration-day-03.jpeg",
-        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary"
+        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary",
+           accommodationImage: "/images/accommodation/migration3.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 4",
@@ -543,7 +604,10 @@ export const itineraries = [
         desc: "Today you will go to the most famous safari park in the world - Serengeti. This is one of the largest parks in Tanzania and has a large population of wildlife. Here, you are sure to see: lions, antelopes, elephants, giraffes, buffaloes and zebras. There is a good chance of spotting cheetahs, serval cats and other rare animals of the African savannah. The Serengeti is a designated UNESCO World Heritage Site, chosen because of its important ecosystem, the dense population of animals and the annual Great Migration. Serengeti was the inspiration for Disney’s “Lion King” feature film, but life here is not a cartoon - it is pure, wild and beautiful. The day will take place in the central Serengeti, in a remarkably beautiful area called Seronera.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/luxury-migration-day-04.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary",
+           accommodationImage: "/images/accommodation/migration4.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 5",
@@ -551,7 +615,10 @@ export const itineraries = [
         desc: "Today you will visit the westernmost part of the Serengeti called the “Western Corridor”. Although it is very interesting and offers plenty of wildlife, travelers rarely reach this area. Black eagle tours and safaris, on the other hand, loves to show off the remote corners of the park, we are happy to take our guests to the Western Corridor, and allow our guests to truly experience all of Serengeti National Park.\n\nHere you can see elephants, giraffes, antelopes, and warthogs. In terms of predators, you’ll likely spot lions, leopards, cheetahs and serval cats. The rivers Grumeti and Mbalageti, which flow through the entire Western Corridor, are home to many hippos and crocodiles. During the day these animals prefer to be in the water, but in the evening and early morning hours many of them get out and are easy to spot at the water’s edge.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/luxury-migration-day-05.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK — WESTERN CORRIDOR safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK — WESTERN CORRIDOR safari itinerary",
+           accommodationImage: "/images/accommodation/migration5.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 6",
@@ -559,7 +626,9 @@ export const itineraries = [
         desc: "Today, you'll embark on an unforgettable adventure: an airplane flight over the picturesque landscapes of Tanzania. If you'd like to have a short morning gamedrive, we recommend that you have breakfast as early as possible — the guide will try to find exciting animal sightings on the way to the airstrip. Another option is to pack up without a rush, have breakfast and leave the lodge in time for your departure flight. You can choose what's best for you on the spot - the guide will accommodate your wish!\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/luxury-migration-day-06.jpg",
-        imageAlt: "FLIGHT OUT OF SERENGETI safari itinerary"
+        imageAlt: "FLIGHT OUT OF SERENGETI safari itinerary",
+           accommodationImage: "/images/accommodation/migration6.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 7",
@@ -616,6 +685,7 @@ export const itineraries = [
       
         image: "/images/itinerary-days/serengeti-cheetah-day-01.jpg",
         imageAlt: "ARRIVAL safari itinerary"
+
       },
       {
         day: "Day 2",
@@ -623,7 +693,10 @@ export const itineraries = [
         desc: "Today your safari will take place in Tarangire National Park. This is one of the most interesting places in Tanzania! The river of the same name flows through the park, where giraffes, zebras, antelopes and buffaloes come to drink. These animals attract predators, which is why a lot of lions live in Tarangire. You will definitely see them during your trip.\n\nIn the dry season, the Tarangire River becomes the only source of drinking water for many kilometers around. Because of this, large herds of elephants come to Tarangire, making Tarangire the home to the largest population of elephants in Northern Tanzania for most of the year (especially June - October and December - March). Elephants are not at all intimidated by visitors to the park, and they often come quite close to cars. This is completely safe - since elephants have no enemies in their natural nature they are naturally curious and unafraid.\n\nTarangire National Park is also known for its ancient baobab trees. These massive trees are larger and older than any other park in continental Africa. The scenery, accented with these signatory trees is simply stunning.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/serengeti-cheetah-day-02.jpg",
-        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary"
+        imageAlt: "TARANGIRE NATIONAL PARK safari itinerary",
+           accommodationImage: "/images/accommodation/che2.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 3",
@@ -631,7 +704,9 @@ export const itineraries = [
         desc: "Today you are going to the Legendary Ngorongoro Crater! Your day will begin early in the morning, when your guide arrives to drive you to the Ngorongoro Crater, part of the Ngorongoro Conservation Area. The Crater is somewhat reminiscent of The Lost World by Sir Arthur Conan Doyle: here you will witness tens of thousands of wild animals living in the massive crater left by a huge ancient volcano. The actual crater is relatively small, when you consider that it is home to the most variety of animals per square meter than anywhere else in the world! Here, you are sure to see a great number of animals within close proximity to one another.\n\nThe descent into the crater will take about half an hour of driving. The road passes through beautiful, lush forests with great scenery. Your safari guide will make a stop to see the ‘look out’ which is a place offering a stunning panoramic view of the entire crater. Contrary to popular myth, animals can go outside the caldera. However, most of them are safe and comfortable inside the caldera which provides an unlimited supply of fresh grass for grazers and easy prey for predators. Therefore, they prefer to remain in the crater t all the time.\n\nElephants, buffaloes, antelopes, lions, cheetahs, zebras and other African animals can be seen in Ngorongoro Crater. This is one of the few places in Africa where rhinos are found, although, remember that they are an endangered species, so there are very few of them. One animal that is absent are giraffes; you will not spot any of them in the crater because, due to the build of their bodies, including legs and long necks, they cannot walk down into the crater.\n\nAfter your morning game drive around the crater, you will stop at the picnic area next to Lake Magadi for a snack and rest. This place is popular with various birds, including kites, who sometimes try to steal food right from the table! While not dangerous, at all, it is a good idea not to leave any food unattended. One of the draws of Lake Magadi are the hippos that live in the area. You’re sure to enjoy watching them while you eat lunch. These huge animals stay close to the shore and often surface to get air. If you do see one walking out of the water, give it plenty of space. Due to the large number of animals and endemic plants, Ngorongoro Conservation Area is a UNESCO World Heritage Site and renowned for its natural significance in the world.\n\nPlease do not feed animals in Ngorongoro or any other parks in Tanzania. Even if you really want to treat a small bird or monkey, you should not do this - you will only harm them. Human food disrupts the natural diet of animals and can lead to their early death!\n\nRemember, this is not just our request. This is a law which is enforced by park rangers. Any person caught feeding wildlife or violating other park rules may be fined.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/serengeti-cheetah-day-03.jpg",
-        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary"
+        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary",
+        accommodationImage: "/images/accommodation/che3.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 4",
@@ -639,7 +714,9 @@ export const itineraries = [
         desc: "Today you will go to the most famous safari park in the world - Serengeti. This is one of the largest parks in Tanzania and has a large population of wildlife. Here, you are sure to see: lions, antelopes, elephants, giraffes, buffaloes and zebras. There is a good chance of spotting cheetahs, serval cats and other rare animals of the African savannah. The Serengeti is a designated UNESCO World Heritage Site, chosen because of its important ecosystem, the dense population of animals and the annual Great Migration. Serengeti was the inspiration for Disney’s “Lion King” feature film, but life here is not a cartoon - it is pure, wild and beautiful. The day will take place in the central Serengeti, in a remarkably beautiful area called Seronera.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/serengeti-cheetah-day-04.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary",
+        accommodationImage: "/images/accommodation/che4.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 5",
@@ -647,7 +724,9 @@ export const itineraries = [
         desc: "Your adventure continues in the central part of the Serengeti. Seronera is a huge space, brimming with life. It is impossible to view it all in one day; today, your guide will show you new places and interesting animals, so that you can get a full perspective of Serengeti’s Seronera. It is in the Serengeti that the rarest African animals live: rhinos, leopards, serval cats and caracals. This second day increases your chances of seeing these rare animals in the wild.\n\nAccommodation:\nMeal Plan: Full board\nAmenities: Laundry service, Restaurant, Spa, Swimming Pool, Wildlife area",
       
         image: "/images/itinerary-days/serengeti-cheetah-day-05.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary",
+        accommodationImage: "/images/accommodation/che5.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 6",
@@ -655,7 +734,9 @@ export const itineraries = [
         desc: "This is your final day in central Serengeti. Every day in the savannah provides something new and exciting, you will not have a repeat of previous days, but will experience something genuinely new: yesterday’s lazy lions might be on the prowl today, elephants that walked away will be curious today. A cheetah may even climb atop the safari car, for a chance to see you! It is also an excellent chance to see the famous Kopjes - these remnants of volcanic rock from ancient eruptions are a picturesque part of the Seronera landscape. Animals love to rest in their shade, providing ideal photographs of your time in Central Serengeti.\n\nYou’ll also see the Simba Rock - Remember the opening scene of “The Lion King” where Mufasa lifts up baby Simba to see all the savannah? Well, you can see it in real life! In Seronera, visit the inspiration for The Lion King, and see the exact rock that was copied for the cartoon.\n\nAccommodation:\nMeal Plan: Breakfast included\nAmenities: Air Conditioner, Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/serengeti-cheetah-day-06.jpg",
-        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary"
+        imageAlt: "SERENGETI NATIONAL PARK — SERONERA safari itinerary",
+        accommodationImage: "/images/accommodation/che6.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 7",
@@ -718,7 +799,10 @@ export const itineraries = [
         desc: "Today’s journey takes you from the lowlands up into the Ngorongoro Highlands. The drive from Arusha — the typical starting point for this safari — takes about 4 to 5 hours, depending on the location of your lodge. But the reward is well worth the journey: a stay on the edge of the Ngorongoro Crater, one of Africa’s most iconic landscapes.\n\nAfter arriving in the Ngorongoro Conservation Area, you’ll stretch your legs with a guided walk along the crater rim. Led by a professional park ranger, this easy 1–2 hour hike follows a flat trail through lush montane forest.\n\nWhile large animals like elephants and buffalo are rarer here than down in the crater, keep your eyes open for tracks and forest birds — and listen to the bush as it slowly reveals its secrets. At the end of the trail, you’ll be rewarded with a spectacular view over the world’s largest intact volcanic caldera.\n\nAfter your walk, check in at a lodge perched right on the edge of the crater. This is your chance to relax, soak in the silence, and enjoy the dramatic landscapes around you. At 2,286 meters above sea level, Ngorongoro can get chilly in the morning and evening — bring a warm layer for extra comfort.\n\nIf you’re an early riser, don't miss the sunrise over the highlands — it’s pure magic. Prefer a slower start? No worries — sunset here is just as breathtaking. In your free time at the lodge, you can read about the legendary Grzimek family, pioneers of Tanzanian conservation, whose story is beautifully told in Serengeti Shall Not Die, available on our website.\n\nAccommodation:\nMeal Plan: Breakfast included\nAmenities: Air Conditioner, Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/sunrise-on-the-rim-day-02.jpg",
-        imageAlt: "NGORONGORO CRATER RIM WALK & REST TIME AT THE LODGE safari itinerary"
+        imageAlt: "NGORONGORO CRATER RIM WALK & REST TIME AT THE LODGE safari itinerary",
+        accommodationImage: "/images/accommodation/sunrise2.jpg",
+       accommodationImageAlt: "Accommodation",
+
       },
       {
         day: "Day 3",
@@ -726,7 +810,9 @@ export const itineraries = [
         desc: "Today you are going to the Legendary Ngorongoro Crater! Your day will begin early in the morning, when your guide arrives to drive you to the Ngorongoro Crater, part of the Ngorongoro Conservation Area. The Crater is somewhat reminiscent of The Lost World by Sir Arthur Conan Doyle: here you will witness tens of thousands of wild animals living in the massive crater left by a huge ancient volcano. The actual crater is relatively small, when you consider that it is home to the most variety of animals per square meter than anywhere else in the world! Here, you are sure to see a great number of animals within close proximity to one another.\n\nThe descent into the crater will take about half an hour of driving. The road passes through beautiful, lush forests with great scenery. Your safari guide will make a stop to see the ‘look out’ which is a place offering a stunning panoramic view of the entire crater. Contrary to popular myth, animals can go outside the caldera. However, most of them are safe and comfortable inside the caldera which provides an unlimited supply of fresh grass for grazers and easy prey for predators. Therefore, they prefer to remain in the crater t all the time.\n\nElephants, buffaloes, antelopes, lions, cheetahs, zebras and other African animals can be seen in Ngorongoro Crater. This is one of the few places in Africa where rhinos are found, although, remember that they are an endangered species, so there are very few of them. One animal that is absent are giraffes; you will not spot any of them in the crater because, due to the build of their bodies, including legs and long necks, they cannot walk down into the crater.\n\nAfter your morning game drive around the crater, you will stop at the picnic area next to Lake Magadi for a snack and rest. This place is popular with various birds, including kites, who sometimes try to steal food right from the table! While not dangerous, at all, it is a good idea not to leave any food unattended. One of the draws of Lake Magadi are the hippos that live in the area. You’re sure to enjoy watching them while you eat lunch. These huge animals stay close to the shore and often surface to get air. If you do see one walking out of the water, give it plenty of space. Due to the large number of animals and endemic plants, Ngorongoro Conservation Area is a UNESCO World Heritage Site and renowned for its natural significance in the world.\n\nPlease do not feed animals in Ngorongoro or any other parks in Tanzania. Even if you really want to treat a small bird or monkey, you should not do this - you will only harm them. Human food disrupts the natural diet of animals and can lead to their early death!\n\nRemember, this is not just our request. This is a law which is enforced by park rangers. Any person caught feeding wildlife or violating other park rules may be fined.\n\nAccommodation:\nMeal Plan: Breakfast included\nAmenities: Air Conditioner, Gym, Laundry service, Restaurant, Spa, Swimming Pool, WiFi",
       
         image: "/images/itinerary-days/sunrise-on-the-rim-day-03.jpg",
-        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary"
+        imageAlt: "NGORONGORO CONSERVATION AREA safari itinerary",
+        accommodationImage: "/images/accommodation/sunrise3.jpg",
+       accommodationImageAlt: "Accommodation",
       },
       {
         day: "Day 4",

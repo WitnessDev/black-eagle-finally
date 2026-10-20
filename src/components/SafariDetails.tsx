@@ -248,11 +248,22 @@ export const SafariDetails = ({
     </figure>
   )}
 
-  {/* Day Description */}
-  <p className="text-gray-600 font-light leading-loose whitespace-pre-wrap text-[15px] md:text-lg">
-    {day.desc}
-  </p>
+{/* Day Description */}
+<p className="text-gray-600 font-light leading-loose whitespace-pre-wrap text-[15px] md:text-lg">
+  {day.desc}
+</p>
 
+{/* Accommodation Image - After Description */}
+{day.accommodationImage && (
+  <div className="mt-8 overflow-hidden rounded-2xl border border-gray-100 shadow-md">
+    <img
+      src={day.accommodationImage}
+      alt={day.accommodationImageAlt || "Safari accommodation"}
+      loading="lazy"
+      className="h-64 w-full object-cover md:h-[360px]"
+    />
+  </div>
+)}
 </div>
 
                   </div>
